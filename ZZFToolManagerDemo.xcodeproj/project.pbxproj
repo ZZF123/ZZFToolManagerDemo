@@ -15,6 +15,7 @@
 		CB2868B11EC54F6E00961890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2868AF1EC54F6E00961890 /* LaunchScreen.storyboard */; };
 		CB2868BC1EC54F6F00961890 /* ZZFToolManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2868BB1EC54F6F00961890 /* ZZFToolManagerDemoTests.m */; };
 		CB2868C71EC54F6F00961890 /* ZZFToolManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2868C61EC54F6F00961890 /* ZZFToolManagerDemoUITests.m */; };
+		CB2868D61EC54F9200961890 /* ZZFToolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2868D51EC54F9200961890 /* ZZFToolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CB2868C21EC54F6F00961890 /* ZZFToolManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZFToolManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2868C61EC54F6F00961890 /* ZZFToolManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFToolManagerDemoUITests.m; sourceTree = "<group>"; };
 		CB2868C81EC54F6F00961890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2868D41EC54F9200961890 /* ZZFToolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZFToolManager.h; sourceTree = "<group>"; };
+		CB2868D51EC54F9200961890 /* ZZFToolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZFToolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		CB2868A01EC54F6E00961890 /* ZZFToolManagerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CB2868D41EC54F9200961890 /* ZZFToolManager.h */,
+				CB2868D51EC54F9200961890 /* ZZFToolManager.m */,
 				CB2868A41EC54F6E00961890 /* AppDelegate.h */,
 				CB2868A51EC54F6E00961890 /* AppDelegate.m */,
 				CB2868A71EC54F6E00961890 /* ViewController.h */,
@@ -278,6 +283,7 @@
 			files = (
 				CB2868A91EC54F6E00961890 /* ViewController.m in Sources */,
 				CB2868A61EC54F6E00961890 /* AppDelegate.m in Sources */,
+				CB2868D61EC54F9200961890 /* ZZFToolManager.m in Sources */,
 				CB2868A31EC54F6E00961890 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
